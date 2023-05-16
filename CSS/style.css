@@ -118,7 +118,19 @@ p {
   color: #ffffff;
 }
 
-.btn-contact:hover {
+button {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1.3rem;
+  background: #000000;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+button:hover {
   background: #ffffff;
   color: #000000;
   cursor: pointer;
@@ -266,9 +278,4 @@ p {
 input::placeholder,
 textarea::placeholder {
   font-family: "poppins", sans-serif;
-}
-
-button {
-  margin-top: 5px;
-  margin-left: 10px;
 }
